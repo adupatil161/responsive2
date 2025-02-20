@@ -1,0 +1,378 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+html {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+  padding: 1rem;
+}
+
+main {
+  padding: 1.5rem;
+  padding-top: 3rem;
+  width: 100%;
+  border: 1px solid black;
+}
+
+.view-1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.view-1 p {
+  font-weight: 200;
+  opacity: 0.8;
+  font-size: 1.5rem;
+}
+.view-1 h1 {
+  font-weight: 400;
+  font-size: 4rem;
+  width: 70%;
+}
+.view-1 img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 1rem;
+}
+
+.view-2 {
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.view-2 .top {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.view-2 .top p {
+  font-weight: 200;
+  opacity: 0.8;
+  font-size: 1.5rem;
+}
+.view-2 .top h1 {
+  font-weight: 400;
+  font-size: 3rem;
+  width: 90%;
+}
+.view-2 .top button {
+  padding: 1rem;
+  background-color: black;
+  border-radius: 0.7rem;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: rgb(255, 248, 214);
+}
+.view-2 .line {
+  background-color: black;
+  height: 1px;
+  width: 100%;
+}
+.view-2 .bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.view-2 .bottom .elem {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.view-2 .bottom .elem img {
+  width: 5rem;
+  aspect-ratio: 1/1;
+}
+.view-2 .bottom .elem h1 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+.view-2 .bottom .elem p {
+  font-weight: 200;
+  opacity: 0.8;
+  font-size: 1.5rem;
+}
+
+.part1 {
+  background-color: black;
+  height: 1px;
+  width: 100%;
+}
+
+.view-3 {
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.view-3 .top1 h1 {
+  font-size: 2rem;
+  font-weight: 400;
+  font-size: 2.5rem;
+  width: 30%;
+}
+.view-3 .top1 p {
+  font-weight: 200;
+  opacity: 0.8;
+  font-size: 1.5rem;
+}
+.view-3 .line {
+  background-color: black;
+  height: 1px;
+  width: 100%;
+}
+.view-3 .bottom1 {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.view-3 .bottom1 .elem1 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+.view-3 .bottom1 .elem1 h1 {
+  font-weight: 400;
+}
+.view-3 .bottom1 .elem1 p {
+  font-size: 0.9rem;
+}
+
+.view-4 {
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.view-4 .top2 {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.view-4 .top2 p {
+  font-weight: 200;
+  opacity: 0.8;
+  font-size: 1.5rem;
+}
+.view-4 .top2 h1 {
+  font-weight: 400;
+  font-size: 3rem;
+}
+.view-4 .top2 img {
+  width: 5rem;
+  aspect-ratio: 1/1;
+}
+.view-4 .bottom2 {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.view-4 .bottom2 p {
+  font-weight: 200;
+  opacity: 0.8;
+  font-size: 1.5rem;
+}
+.view-4 .bottom2 button {
+  padding: 1rem;
+  background-color: black;
+  border-radius: 0.7rem;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: rgb(255, 248, 214);
+}
+
+.view-5 {
+  margin: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.view-5 .top3 {
+  display: flex;
+  flex-direction: column;
+}
+.view-5 .top3 .sub1 {
+  padding-left: 0;
+  margin-left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.view-5 .top3 .sub1 h1 {
+  font-weight: 400;
+}
+.view-5 .top3 .sub2 {
+  padding-left: 0;
+}
+.view-5 .line {
+  background-color: black;
+  height: 1px;
+  width: 100%;
+}
+.view-5 .bottom3 {
+  gap: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.view-5 .bottom3 .elem3 {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.view-5 .bottom3 .elem3 h1 {
+  font-weight: 600;
+}
+.view-5 .bottom3 .elem3 a {
+  color: black;
+  text-decoration: none;
+}
+.view-5 .bottom3 button {
+  padding: 1rem;
+  background-color: black;
+  border-radius: 0.7rem;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: rgb(255, 248, 214);
+}
+
+.view-6 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+@media (min-width: 1020px) {
+  main {
+    padding: 3rem;
+  }
+  .view-1 h1 {
+    font-size: 6rem;
+    width: 50%;
+  }
+  .view-2 {
+    flex-direction: row;
+  }
+  .view-2 .top {
+    width: 60%;
+    justify-content: space-between;
+  }
+  .view-2 .top h1 {
+    font-size: 4.2rem;
+    font-weight: 500;
+  }
+  .view-2 .line {
+    height: initial;
+    width: 1px;
+  }
+  .view-2 .bottom {
+    width: 40%;
+  }
+  .view-2 .bottom .line {
+    width: 100%;
+    height: 1px;
+    align-self: stretch;
+  }
+  .view-2 .bottom .elem p {
+    font-size: 1.2rem;
+  }
+  .view-3 {
+    flex-direction: row;
+  }
+  .view-3 .top1 {
+    width: 35%;
+  }
+  .view-3 .top1 h1 {
+    font-size: 3.8rem;
+  }
+  .view-3 .line {
+    height: initial;
+    width: 1px;
+  }
+  .view-3 .bottom1 {
+    width: 60%;
+    display: grid;
+    grid-template-areas: "a b" "c d";
+  }
+  .view-3 .elem1 {
+    gap: 0.6rem;
+  }
+  .view-3 .elem1 .img-a {
+    grid-area: a;
+  }
+  .view-3 .elem1 .img-b {
+    grid-area: b;
+  }
+  .view-3 .elem1 .img-c {
+    grid-area: c;
+  }
+  .view-3 .elem1 .img-c {
+    grid-area: d;
+  }
+  .view-4 {
+    width: 100%;
+    flex-direction: row;
+  }
+  .view-4 .top2 {
+    width: 67%;
+    gap: 13rem;
+    justify-content: space-between;
+  }
+  .view-4 .top2 h1 {
+    font-size: 4.5rem;
+  }
+  .view-4 .line {
+    width: 1px; /* Line thickness */
+    height: 600px; /* Same height as the divs */
+    background-color: black; /* Line color */
+    margin: 0 10px;
+  }
+  .view-4 .bottom2 {
+    width: 38%;
+    justify-content: space-between;
+  }
+  .view-5 {
+    height: 350px;
+    padding-top: 2rem;
+    flex: display;
+    flex-direction: row;
+  }
+  .view-5 .top3 {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+  }
+  .view-5 .line {
+    height: initial;
+    width: 1px;
+  }
+  .view-5 .bottom3 {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    gap: 9rem;
+  }
+  .view-5 .bottom3 .line {
+    display: none;
+  }
+  .view-6 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}/*# sourceMappingURL=style.css.map */
